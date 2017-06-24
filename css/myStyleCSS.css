@@ -1,10 +1,113 @@
 <style>
-	body {
-		background: #f5f5f5;
-		font-family: Imprima, sans-serif;
-	}
+.imagecontainer {
+    position: relative;
+    min-width: 940px;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0.6;
+}
 
-	header {
+.title>h1 {
+    position: absolute;
+    font-size: 4em;
+    top: 100px;
+    left: 250px;
+    font-family: 'Special Elite', cursive;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.subtitle>h2 {
+    position: absolute;
+    top: 160px;
+    left: 455px;
+    font-family: 'Special Elite', cursive;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-aboutme .btn>a {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Special Elite', cursive;
+}
+.btn-aboutme .btn{
+    padding-bottom: 1px;
+    position: absolute;
+    border-radius: 5;
+    /*background: rgba(255, 255, 255, .2);*/
+    margin-top: 60px;
+    margin-left: 1175px
+}
+
+.btn-static .btn>a {
+    font-size: 1.75em;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Special Elite', cursive;
+}
+
+.btn-static .btn {
+    padding-bottom: 1px;
+    position: absolute;
+    border-radius: 5;
+    background: rgba(255, 255, 255, .2);
+    margin-top: 550px;
+    margin-left: 720px
+}
+
+.btn-web .btn>a {
+    font-size: 1.75em;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    font-family: 'Special Elite', cursive;
+}
+
+.btn-web .btn {
+    padding-bottom: 1px;
+    position: absolute;
+    border-radius: 5;
+    background: rgba(255, 255, 255, .2);
+    margin-top: 550px;
+    margin-left: 530px
+}
+
+
+/*body {
+	    background-image: "url('images/RoadsideDirection.jpg')";
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-attachment:fixed;
+	    background-size: 100%;
+	    /*background-color: #464646;*/
+
+
+}
+*/
+/*body {
+		background-color: transparent;
+		font-family: Imprima, sans-serif;
+	}*/
+
+/*header {
 		width: 100%;
 		min-width: 800px;
 		margin: 0 auto;
@@ -109,5 +212,5 @@
 	span.fa.fa-chevron-left {
 		margin-top: 300px;
 		color: black;
-	}
+	}*/
 </style>

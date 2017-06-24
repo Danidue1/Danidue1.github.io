@@ -1,0 +1,27 @@
+<style>
+.fa-events-icons-ready {
+  background-color: #9900e6;
+}
+.imagecontainer {
+    position: absolute;
+    padding: 10px;
+    margin-left: 800px;
+    margin-top: 100px;
+    min-width: 100px;
+}
+
+.imagecontainer .caption>p {
+    font-family: 'Special Elite', cursive;
+}
+
+.title>h1 {
+    position: absolute;
+    font-size: 2.5em;
+    top: 50px;
+    left: 300px;
+    font-family: 'Special Elite', cursive;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+</style>
