@@ -3,115 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MAP672 Portfolio Example</title>
+    <title>Danielle Bargovic Map & Web Portfolio</title>
+	<meta name="Danielle Bargovic" content="">
+	<link rel='shortcut icon' href='graphics/DoxyFav3.ico' type='image/x-icon' />
 
     <meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<!-- Bootstrap stylz -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom stylz for this webmap -->
+	<link href="css/myStyleCSS.css" rel="stylesheet">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
-    <style>
-        body {
-            background: #f5f5f5;
-            font-family: Imprima, sans-serif;
-        }
 
-        header {
-            width: 100%;
-            min-width: 800px;
-            margin: 0 auto;
-            background: #654272;
-            padding: 15px 0 20px;
-        }
-
-        h1 {
-            font-family: Dosis, sans-serif;
-            color: #375671;
-            width: 80%;
-            margin: 0 auto;
-            color: whitesmoke;
-        }
-
-        h2 {
-            font-family: Dosis, sans-serif;
-            color: #375671;
-            width: 80%;
-            margin: 0 auto;
-            color: whitesmoke;
-        }
-
-        h3 {
-            font-family: Dosis, sans-serif;
-            color: #003d71
-        }
-
-        p {
-            font-size: .9em;
-            color: #375671;
-        }
-
-        ul {
-            list-style-type: none;
-            font-size: .9em;
-            color: #375671;
-            line-height: 1.6em;
-        }
-
-        a,
-        a:visited {
-            color: #003d71;
-        }
-
-        .project {
-            width: 80%;
-            min-width: 800px;
-            height: 100%;
-            margin: 35px auto;
-        }
-
-        .project:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .project-webImage1 {
-            width: 388px;
-            height: 240px;
-            background: white;
-            float: left;
-            margin-right: 20px;
-            border: 2px solid #dddddd;
-        }
-
-        .project-webImage2 {
-            width: 350px;
-            height: 280px;
-            background: white;
-            float: left;
-            margin-right: 20px;
-            border: 2px solid #dddddd;
-        }
-
-        .project-staticImage1 {
-            width: 350px;
-            height: 250px;
-            background: white;
-            float: right;
-            margin-right: 20px;
-            border: 2px solid #dddddd;
-        }
-
-        .project-staticImage2 {
-            width: 388px;
-            height: 240px;
-            background: white;
-            float: right;
-            margin-right: 20px;
-            border: 2px solid #dddddd;
-        }
-        /* CSS style rules go here! */
-    </style>
 </head>
 
 <body>
@@ -119,6 +25,49 @@
         <h1>Danielle Bargovic: Cartographer by Trade Web Mapper by Choice </h1>
         <h2>Web Cartography at the Universty of Kentucky</h2>
     </header>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="NightSkyWithTip.jpg" alt="Lighting Up the Night Sky">
+	    </div>
+
+	    <div class="item">
+	      <img src="CleanerGreener.jpg" alt="#SustainabilityGoals">
+	    </div>
+
+	    <div class="item">
+			<img src="images/Camping_Full_1024X644.jpg" alt="Clinton's Ditch">
+			<a href= "/maps/ErieCanalCamping.pdf">
+				<div class="carousel-caption">
+				   <h4>First Thumbnail label</h4>
+				   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+					   Donec id elit non mi porta gravida at eget metus. Nullam id dolor
+					   id nibh ultricies vehicula ut id elit.</p>
+			   </div>
+
+	  </a>
+	    </div>
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    <span <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    <span <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
 
     <section class="project">
         <a target="_blank" href="#"><img src="images/CommuteMap.jpg" alt="Commute Map" class="project-webImage1">
@@ -176,6 +125,14 @@
             </ul>
     </section>
 
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+	</script>
+	<script src="https://use.fontawesome.com/6297260b3a.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script src='js/app.js'></script>
 </body>
 
 </html>
