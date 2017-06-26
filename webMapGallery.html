@@ -36,31 +36,55 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img src="NightSkyWithTip.jpg" alt="Lighting Up the Night Sky">
-    </div>
-
-    <div class="item">
-      <img src="CleanerGreener.jpg" alt="#SustainabilityGoals">
-    </div>
-
-    <div class="item">
-    <img src="images/Camping_Full_1024X644.jpg" alt="Clinton's Ditch">
-    <a href= "/maps/ErieCanalCamping.pdf">
+    <div id="Critter" class="item active">
+      <img src="images/LlamaAplacaPop.jpg" alt="LlamaAndAlpacas">
       <div class="carousel-caption">
-         <h4>First Thumbnail label</h4>
-         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-           Donec id elit non mi porta gravida at eget metus. Nullam id dolor
-           id nibh ultricies vehicula ut id elit.</p>
+         <h4>Oh my Llama!</h4>
+         <p>A webmap displaying the llama and alpaca populations for each US state. The user is given interatction with the individual states to see the Alpaca populations while the icon within each state represents the llama populus.</p>
+         <p>The interactive map is written in JavaScript utlizing the Leaflet API.</p>
+         </div>
+       </div>
+
+    <div id="Night" class="item">
+    <img src="images/NightSkywithTip_NEW.jpg" alt="NightSky">
+      <div class="carousel-caption">
+        <a href=  "https://danidue1.github.io/US_RenewableEnergy/">
+         <h4>Lighting up the night sky</h4>
+         <p>A webmap displaying graduated circles representing the energy production of select power plants in the U.S. The 2 colors represent natural gas produced energy in conjunction with coal and petroleum.</p>
+         <p>The interactive map is written in JavaScript utlizing the Leaflet API.</p>
+         </a>
+         </div>
+       </div>
+
+    <div id="Halfmoon" class="item">
+    <img src="images/HalfmoonViewer.jpg" alt="Halfmoon">
+    <a href=  "https://danidue1.github.io/Halfmoon_Interactive/">
+      <div class="carousel-caption">
+         <h4>Town of Halfmoon Community Map</h4>
+         <p>Created as a discovery tool for residents and the public alike this interactive web viewer allows for the search and query of various publicly available data sets. Click here to have a look for yourself!</p>
+         <p>The interactive map is written in JavaScript while utilizing mapbox and leaflet APIs. This map relies on Boostrap CSS to provide flexible interaction</p>
+       </div>
+
+  </a>
+    </div>
+    <div id="Uninsured" class="item">
+    <img src="images/US UninsuredRatesByCounty.JPG" alt="Halfmoon">
+    <a href=  "https://danidue1.github.io/Halfmoon_Interactive/">
+      <div class="carousel-caption">
+         <h4>The Uninsured</h4>
+         <p>Interactive map displaying the US counties and their rates of uninsured populations</p>
+          <p>The interactive map harnesses the power of the CARTO platform and is written in Carto.js .</p>
        </div>
 
   </a>
     </div>
   </div>
+  <!-- </div> -->
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">

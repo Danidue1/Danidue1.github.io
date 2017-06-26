@@ -68,6 +68,18 @@ span.fa.fa-chevron-left {
   margin-right: 20px;
   border: 2px solid #dddddd;
 }
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.60);
+}
 
+.carousel-caption>p {
+  font-family: 'Special Elite', cursive;
+}
+.carousel-caption>h4 {
+  font-family: 'Special Elite', cursive;
+}
+/*.carousel-caption>h4 {
+  font-family: 'Special Elite', cursive;
+}*/
 
 </style>
