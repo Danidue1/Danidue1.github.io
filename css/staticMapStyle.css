@@ -1,5 +1,62 @@
 <style>
-h1{
-
+ul {
+  list-style-type: none;
+  font-size: .9em;
+  color: #375671;
+  line-height: 1.6em;
+  font-family: 'Special Elite', cursive;
 }
+
+a,
+a:visited {
+  color: #003d71;
+  font-family: 'Special Elite', cursive;
+}
+
+.project {
+  width: 80%;
+  min-width: 800px;
+  height: 100%;
+  margin: 35px auto;
+  font-family: 'Special Elite', cursive;
+}
+.project>h3>a {
+color: #33004d;
+font-weight: bold;
+}
+.project>ul>li>a {
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+}
+.project>ul>a{
+  font-family: 'Special Elite', cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.project:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'Special Elite', cursive;
+}
+.project-staticImage1 {
+  width: 350px;
+  height: 250px;
+  background: white;
+  float: right;
+  margin-right: 20px;
+  border: 2px solid #dddddd;
+}
+
+.project-staticImage2 {
+  width: 388px;
+  height: 240px;
+  background: white;
+  float: right;
+  margin-right: 20px;
+  border: 2px solid #dddddd;
+}
+
+
 </style>
