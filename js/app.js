@@ -2,13 +2,13 @@
 
     $(function() {
         $('#WebMaps').click(function() {
-            window.location = '/webMapGallery.html'
+            window.location = 'webMapGallery.html'
         })
         $('#staticMaps').click(function() {
-            window.location = '/staticGallery.html'
+            window.location = 'staticGallery.html'
         })
         $('#AboutMe').click(function() {
-            window.location = '/AboutMe.html'
+            window.location = 'AboutMe.html'
         });
     });
     // $(function(){
